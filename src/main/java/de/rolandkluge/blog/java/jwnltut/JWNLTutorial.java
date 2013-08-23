@@ -31,8 +31,8 @@ public class JWNLTutorial
             final Dictionary dictionary = Dictionary.getInstance();
 
             // Specify the lemma for which we want to retrieve all containing synsets
-            final String lemma = "lousy";
-            final POS pos = POS.ADJECTIVE;
+            final String lemma = "houses";
+            final POS pos = POS.VERB;
 
             /*
              * Try to find the query lemma+POS combination as is, otherwise try to
